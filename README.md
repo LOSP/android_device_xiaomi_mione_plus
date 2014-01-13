@@ -26,4 +26,7 @@ Patches are always welcome
 
 Kernel
 --------------------------------
-Kernel Version:3.4
+Kernel Version:3.4-00148
+
+
+Thx PeterCxy,iptux,风暴
