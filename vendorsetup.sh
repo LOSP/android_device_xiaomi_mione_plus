@@ -15,4 +15,5 @@
 #
 
 add_lunch_combo losp_mione_plus-userdebug
-
+add_lunch_combo cm_mione_plus-userdebug
+add_lunch_combo mk_mione_plus-userdebug
