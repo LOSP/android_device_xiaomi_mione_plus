@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="device/xiaomi/msm8660-common" name="LOSP/android_device_xiaomi_msm8660-common" revision="refs/heads/kk" />
+  <project path="device/xiaomi/mione_plus" name="BambooIV/LOSP-android_device_xiaomi_mione_plus" revision="refs/heads/kk" />
+  <project path="vendor/xiaomi/mione_plus" name="LOSP/proprietary_vendor_xiaomi/mione_plus" revision="refs/heads/kk" />
+
+  <remove-project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" />
+  <project path="hardware/qcom/audio-caf" name="LOSP/android_hardware_qcom_audio-caf" revision="refs/heads/kk" />
+  <project path="hardware/qcom/display-legacy" name="LOSP/android_hardware_qcom_display-legacy" revision="refs/heads/kk" />
+  <project path="hardware/qcom/display-legacy-caf" name="LOSP/hardware_qcom_display-legacy-caf" revision="refs/heads/kk" />
+  <project path="hardware/qcom/media-legacy" name="LOSP/android_hardware_qcom_media-legacy" revision="refs/heads/kk" />
+
+</manifest>
