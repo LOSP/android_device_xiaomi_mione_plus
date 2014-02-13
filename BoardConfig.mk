@@ -70,7 +70,8 @@ BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
 # Recovery
 BOARD_USES_MMCUTILS := true
 BOARD_HAS_NO_SELECT_BUTTON := true
-TARGET_RECOVERY_INITRC := device/xiaomi/mione_plus/recovery/init.rc
+TARGET_RECOVERY_NEEDS_PAGE_ALIGN := true
+TARGET_RECOVERY_NEEDS_VSYNC := true
 TARGET_RECOVERY_FSTAB = device/xiaomi/mione_plus/ramdisk/fstab.mione
 RECOVERY_FSTAB_VERSION := 2
 
