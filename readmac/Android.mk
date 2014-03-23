@@ -1,5 +1,5 @@
-
 # Hack for build
+$(shell cp vendor/xiaomi/mione_plus/proprietary/lib/libnv.so $(OUT)/obj/lib/)
 $(shell mkdir -p $(OUT)/obj/SHARED_LIBRARIES/libnv_intermediates)
 $(shell touch $(OUT)/obj/SHARED_LIBRARIES/libnv_intermediates/export_includes)
 $(shell mkdir -p $(OUT)/obj/SHARED_LIBRARIES/liboncrpc_intermediates)
