@@ -33,8 +33,6 @@
 target=`getprop ro.board.platform`
 serial=`getprop persist.serial.enable`
 dserial=`getprop ro.debuggable`
-echo "ondemand" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
-echo "ondemand" > /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor
 case "$target" in
     "msm8960")
         case "$serial" in
